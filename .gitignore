@@ -1,0 +1,24 @@
+*.launch
+*.iml
+*.ipr
+*.iws
+
+.gradle/
+.classpath/
+.project/
+.idea/
+.metadata/
+.vscode/
+.settings/
+
+bin/
+build/
+classes/
+out/
+output/
+runs/
+# Dev run directories (Minecraft runtime data, logs, crash reports, world)
+run/
+neoforge/run/
+forge/run/
+fabric/run/

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "majruszsdifficulty:enderium_helmet",
+    "majruszsdifficulty:enderium_chestplate",
+    "majruszsdifficulty:enderium_leggings",
+    "majruszsdifficulty:enderium_boots",
+    "majruszsdifficulty:tattered_helmet",
+    "majruszsdifficulty:tattered_chestplate",
+    "majruszsdifficulty:tattered_leggings",
+    "majruszsdifficulty:tattered_boots"
+  ]
+}

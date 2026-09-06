@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"min": -1.0, "max": 1.0, "type": "minecraft:uniform"}},
+            {"function": "minecraft:enchanted_count_increase", "enchantment": "minecraft:looting", "count": {"min": 0.0, "max": 1.0, "type": "minecraft:uniform"}}
+          ],
+          "conditions": [
+            {"condition": "minecraft:random_chance_with_enchanted_bonus", "enchantment": "minecraft:looting", "unenchanted_chance": 0.0625, "enchanted_chance": {"type": "minecraft:linear", "base": 0.25, "per_level_above_first": 0.15}}
+          ]
+        }
+      ]
+    }
+  ]
+}
